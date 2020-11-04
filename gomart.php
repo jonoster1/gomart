@@ -94,7 +94,7 @@ echo "\n";
         echo color("blue","👀 ");
         sleep(10);
         }
-         $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+         $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI3"}');
         $message = fetch_value12($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
@@ -108,7 +108,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI5"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","👍🙏 Message: ".$message);
@@ -122,7 +122,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI6"}');
         $message = fetch_value12($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
@@ -136,7 +136,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(10);
         }
-        $code1 = requested('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+        $code1 = requested('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI4"}');
         $message = fetch_value1($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","👍🙏 Message: ".$message);
@@ -153,7 +153,7 @@ echo "\n".color("green","👌🍱 Ambil Voucer ");
         echo color("blue","👀 ");
         sleep(8);
         }
-        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADIMART"}');
+        $code1 = requestedd('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARIJADI3"}');
         $message = fetch_value1($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".colorss("green","👍🙏 Message: ".$message);
